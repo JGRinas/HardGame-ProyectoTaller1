@@ -1,0 +1,122 @@
+CRITICAL - 2022-05-28 10:36:39 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(19): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-28 12:06:56 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(19): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-28 12:08:40 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(19): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-28 12:09:15 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(19): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-28 13:20:01 --> Undefined index: id
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\products.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 9, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/produ...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(76): view('/products/produ...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 13:26:04 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(72): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-28 13:26:31 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(72): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-28 13:26:33 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(72): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-28 13:56:14 --> Undefined variable: monto
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\products.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/produ...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(82): view('/products/produ...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 13:56:56 --> Undefined variable: monto
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\products.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 28, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/produ...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(82): view('/products/produ...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 14:09:14 --> Undefined variable: monto
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\products.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/produ...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(82): view('/products/produ...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 14:09:33 --> Undefined variable: monto
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\products.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/produ...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(82): view('/products/produ...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-28 21:16:21 --> Undefined variable: brand
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\admin\registerProducts.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/admin/register...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(106): view('/admin/register...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->viewConsults()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

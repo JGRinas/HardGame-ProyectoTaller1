@@ -1,0 +1,263 @@
+CRITICAL - 2022-06-06 19:43:51 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 19:43:57 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(44): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 20:38:32 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(27): view('/sesion/registe...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:20 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:22 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:22 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:22 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:22 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:23 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:23 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:23 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:39:23 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:40:02 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(28): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->register()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:42:16 --> Call to a member function getError() on array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#3 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(121): view('/sesion/registe...', Array)
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerUser()
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 20:43:19 --> Call to undefined method App\Models\UserModel::getError
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Model->__call('getError', Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(121): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:43:28 --> Call to a member function getError() on array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#3 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(121): view('/sesion/registe...', Array)
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerUser()
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 20:44:02 --> Call to a member function getError() on array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#3 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(121): view('/sesion/registe...', Array)
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerUser()
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 20:45:06 --> Call to a member function getError() on array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#3 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(121): view('/sesion/registe...', Array)
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerUser()
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 20:46:53 --> Undefined index: pass
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(85): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(121): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:51:00 --> Undefined index: name
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(121): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:51:19 --> Undefined index: name
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(65): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(121): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 20:56:37 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\various\help.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 51, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/various/help', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(26): view('/various/help', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->registerHelp()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 21:01:51 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(49): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 21:02:49 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(50): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-06 21:03:07 --> Undefined variable: newProduct
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(78): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-06 21:05:11 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(50): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

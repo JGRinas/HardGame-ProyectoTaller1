@@ -1,0 +1,491 @@
+CRITICAL - 2022-05-25 07:59:10 --> Undefined variable: consultModel
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->viewManageUsers()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 07:59:21 --> Undefined index: create_at
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\admin\manageUsers.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/admin/manageUs...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(75): view('/admin/manageUs...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->viewManageUsers()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 08:04:55 --> Illegal string offset 'id_profile'
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->deleteUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 08:05:20 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(84): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->deleteUser()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 08:06:28 --> Illegal string offset 'id_profile'
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->deleteUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 08:06:40 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(82): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->deleteUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 10:14:57 --> Too few arguments to function App\Controllers\UserController::formEditProfile(), 0 passed in C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 10:21:22 --> Too few arguments to function App\Controllers\UserController::formEditProfile(), 0 passed in C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 10:21:38 --> Too few arguments to function App\Controllers\UserController::formEditProfile(), 0 passed in C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 10:22:33 --> Undefined variable: option
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(115): view('/sesion/formEdi...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:23:09 --> Undefined variable: option
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(115): view('/sesion/formEdi...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:24:34 --> Undefined variable: option
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(115): view('/sesion/formEdi...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:24:41 --> Undefined variable: option
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(115): view('/sesion/formEdi...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:24:51 --> Undefined variable: option
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(115): view('/sesion/formEdi...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:24:52 --> Undefined variable: option
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(115): view('/sesion/formEdi...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:24:56 --> Undefined variable: option
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 5, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(115): view('/sesion/formEdi...')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->formEditProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:50:04 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(126): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 10:51:57 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(126): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 10:52:29 --> Request URI segment is out of range: 2
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(2)
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(126): CodeIgniter\HTTP\URI->getSegment(2)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 10:58:59 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:59:01 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:59:03 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 10:59:07 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:00:27 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:00:45 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:00:46 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:00:47 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:01:13 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\profile.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/profile', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(111): view('/sesion/profile')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->viewProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:08:58 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(128): view('/sesion/formEdi...', Array, Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:09:09 --> Illegal string offset 'id'
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(128): view('/sesion/formEdi...', Array, Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:11:20 --> Undefined variable: user
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(128): view('/sesion/formEdi...', Array, Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:11:38 --> Undefined variable: user
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(128): view('/sesion/formEdi...', Array, Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:12:00 --> Undefined variable: user
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(128): view('/sesion/formEdi...', Array, Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:13:30 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(128): view('/sesion/formEdi...', Array, Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:13:49 --> Undefined variable: option
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 43, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(128): view('/sesion/formEdi...', Array, Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:16:02 --> Undefined variable: user
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(130): view('/sesion/formEdi...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:16:23 --> Use of undefined constant user - assumed 'user' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(130): view('/sesion/formEdi...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:16:36 --> Undefined variable: user
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(130): view('/sesion/formEdi...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:17:03 --> Use of undefined constant user - assumed 'user' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\formEditProfile.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/formEdi...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(130): view('/sesion/formEdi...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-25 11:20:33 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php on line 125
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(125): view('/sesion/formEdi...', '2')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 11:20:35 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php on line 125
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(125): view('/sesion/formEdi...', '1')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 11:20:50 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php on line 125
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(125): view('/sesion/formEdi...', '3')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->editProfile()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 11:35:50 --> There is no data to update.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\BaseModel.php(656): CodeIgniter\Model->update(Array, Array)
+#3 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(143): CodeIgniter\BaseModel->save(Array)
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->updateProfile()
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 11:37:21 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(153): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->updateProfile()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 11:38:16 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\UserController.php(153): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\UserController->updateProfile()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-25 17:21:50 --> Class 'App\Controllers\File' not found
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 17:24:06 --> Class 'App\Controllers\File' not found
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 17:25:25 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\ci_proyecto2022\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 17:25:29 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\ci_proyecto2022\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-25 17:47:54 --> Class 'App\Controllers\ProductModel' not found
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 17:48:17 --> Undefined variable: userModel
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->products()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 18:14:10 --> finfo_file(C:\xampp\tmp\php3B48.tmp): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\x...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Files\File.php(109): finfo_file(Resource id #137, 'C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+#4 C:\xampp\htdocs\ci_proyecto2022\system\Files\File.php(121): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+#5 C:\xampp\htdocs\ci_proyecto2022\system\HTTP\Files\UploadedFile.php(338): CodeIgniter\Files\File->getRandomName()
+#6 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\AdminController.php(24): CodeIgniter\HTTP\Files\UploadedFile->store()
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\AdminController->regProducts()
+#8 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#9 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

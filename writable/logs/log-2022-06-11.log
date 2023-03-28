@@ -1,0 +1,51 @@
+CRITICAL - 2022-06-11 21:08:05 --> Illegal string offset 'title'
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\cartView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/cartV...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\CartController.php(30): view('/products/cartV...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\CartController->cartView()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 21:13:18 --> Undefined index: title
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\cartView.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/cartV...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\CartController.php(30): view('/products/cartV...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\CartController->cartView()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 21:18:39 --> Undefined index: title
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\cartView.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/cartV...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\CartController.php(30): view('/products/cartV...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\CartController->cartView()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 21:19:15 --> Undefined index: title
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\products\cartView.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/products/cartV...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\CartController.php(30): view('/products/cartV...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\CartController->cartView()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-11 22:04:28 --> Undefined variable: product
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\ViewController.php(63): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\ViewController->marketing()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ViewController))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

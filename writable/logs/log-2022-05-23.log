@@ -1,0 +1,570 @@
+CRITICAL - 2022-05-23 10:05:51 --> true is not a valid rule.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('true')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('accept_terms', 'accept_terms', '', Array, Array)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\ci_proyecto2022\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\ci_proyecto2022\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(60): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerUser()
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 10:06:04 --> checked is not a valid rule.
+#0 C:\xampp\htdocs\ci_proyecto2022\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('checked')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('accept_terms', 'accept_terms', '', Array, Array)
+#2 C:\xampp\htdocs\ci_proyecto2022\system\BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 C:\xampp\htdocs\ci_proyecto2022\system\BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 C:\xampp\htdocs\ci_proyecto2022\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#5 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(60): CodeIgniter\Model->insert(Array)
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerUser()
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 10:12:49 --> Use of undefined constant checked - assumed 'checked' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(64): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 11:00:49 --> Class 'App\Controllers\HelpModel' not found
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerHelp()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 11:08:44 --> Class 'App\Controllers\HelpModel' not found
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerHelp()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 11:10:15 --> Call to undefined method App\Models\HelpModel::inset
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(30): CodeIgniter\Model->__call('inset', Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerHelp()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 11:12:08 --> Undefined variable: info
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\various\help.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/various/help', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(34): view('/various/help', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerHelp()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 11:12:45 --> Undefined variable: info
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\various\help.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/various/help', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(34): view('/various/help', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerHelp()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 12:28:10 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\templates\navs.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/templates/navs', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(109): view('/templates/navs', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 12:32:38 --> Undefined variable: userModel
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(68): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 12:57:53 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\templates\navs.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/templates/navs', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(152): view('/templates/navs')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->products()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 13:28:51 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(100): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 13:29:42 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(100): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 13:30:00 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(100): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 13:30:52 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(100): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 13:31:17 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(100): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 13:31:29 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(100): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 13:43:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 13:45:32 --> Undefined index: pass
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 13:50:40 --> Array to string conversion
+#0 C:\xampp\htdocs\ci_proyecto2022\system\Model.php(141): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 141, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, 'juanxoo@hotmail...')
+#2 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(68): CodeIgniter\BaseModel->find('juanxoo@hotmail...')
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 13:59:18 --> Undefined property: App\Controllers\Home::$session
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 93, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 14:00:11 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(96): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 14:03:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(95): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 14:04:44 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(95): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 14:05:42 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(95): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 14:06:17 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(95): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 14:06:30 --> Undefined variable: data
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(95): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 14:08:26 --> Cannot use object of type App\Models\UserModel as array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 14:43:37 --> Undefined variable: session
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(94): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-23 14:44:40 --> Unknown column 'juanxoo@hotmail.commm' in 'where clause'
+CRITICAL - 2022-05-23 14:44:40 --> Unknown column 'juanxoo@hotmail.commm' in 'where clause'
+#0 C:\xampp\htdocs\ci_proyecto2022\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ci_proyecto2022\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(70): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-23 14:45:54 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 14:46:45 --> Cannot use object of type App\Models\UserModel as array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 14:47:06 --> Cannot use object of type App\Models\UserModel as array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 14:47:46 --> Cannot use object of type App\Models\UserModel as array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 15:02:05 --> Undefined offset: 0
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:12:45 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(111): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 15:14:14 --> Undefined variable: session
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:14:24 --> Undefined variable: session
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:15:54 --> Undefined variable: session
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:16:06 --> Undefined variable: session
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(109): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 109, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:16:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:21:28 --> Trying to get property 'pass' of non-object
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:30:43 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:31:34 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(110): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 15:32:17 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(110): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 15:32:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(110): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 15:32:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(110): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 15:32:22 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(110): view('/sesion/login', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 15:33:34 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php on line 110
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(110): view('/sesion/login', NULL)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:40:10 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php on line 110
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(110): view('/sesion/login', NULL)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:40:34 --> Argument 2 passed to view() must be of the type array, null given, called in C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php on line 110
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(110): view('/sesion/login', NULL)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 15:41:02 --> Undefined variable: mensaje
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/login', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(109): view('/sesion/login')
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 15:42:27 --> Call to a member function get() on array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 15:42:46 --> Call to a member function getResultArray() on array
+#0 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-23 15:59:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 16:02:33 --> Trying to get property 'pass' of non-object
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 16:05:59 --> Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP)
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 16:10:47 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\xampp\\htdocs...', 124, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(124): password_hash('pivacho2233')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerUser()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 16:12:26 --> Undefined variable: userModel
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(69): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->loginUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 18:21:48 --> Argument 2 passed to view() must be of the type array, string given, called in C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php on line 131
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(131): view('/sesion/registe...', '$2y$10$qcQiRLks...')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 18:22:27 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Views\sesion\register.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#4 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(131): view('/sesion/registe...', Array)
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerUser()
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-23 18:25:41 --> Undefined variable: infoE
+#0 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(129): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 129, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerUser()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-23 18:26:31 --> password_hash() expects at least 2 parameters, 1 given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_hash()...', 'C:\\xampp\\htdocs...', 123, Array)
+#1 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(123): password_hash('asdzxc')
+#2 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->registerUser()
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-23 19:14:23 --> Invalid file: /templates/navs.php
+#0 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/templates/navs...')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/templates/navs', Array, true)
+#2 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(159): view('/templates/navs')
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->products()
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-23 20:08:33 --> Invalid file: /admin/registerProducts.php
+#0 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin/register...')
+#1 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/admin/register...', Array, true)
+#2 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(163): view('/admin/register...')
+#3 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->regProductsView()
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

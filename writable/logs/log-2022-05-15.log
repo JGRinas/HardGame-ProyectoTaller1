@@ -1,0 +1,10 @@
+CRITICAL - 2022-05-15 14:23:44 --> Call to undefined function form_open()
+#0 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ci_proyecto2022\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ci_proyecto2022\system\Common.php(1089): CodeIgniter\View\View->render('/sesion/registe...', Array, true)
+#3 C:\xampp\htdocs\ci_proyecto2022\app\Controllers\Home.php(56): view('/sesion/registe...')
+#4 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(832): App\Controllers\Home->register()
+#5 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci_proyecto2022\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci_proyecto2022\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
